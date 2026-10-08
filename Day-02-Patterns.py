@@ -85,6 +85,7 @@ for i in range(0,n):
         k+=1
     print()
 
+
 #Pattern-11
 
 n=int(input())
