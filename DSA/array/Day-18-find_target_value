@@ -1,0 +1,14 @@
+arr = [12, 25, 36, 48, 59, 63]
+target = 48
+found = False
+for i in range(len(arr)):
+    if target == arr[i]:
+        found = True
+        
+        
+        index = i
+        break
+if found:
+    print("Element found at index",index)
+else:
+    print("Element not found")
